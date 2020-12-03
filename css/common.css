@@ -1,0 +1,361 @@
+:root {
+  /*цвет основного текста #757575*/
+  --primary-text-color: #757575;
+  /* вторичный цвет  #212121 */
+  --title-text-color: #212121;
+  /* акцент #2196F3*/
+  --accent-color: #2196f3;
+  /* ==== белый цвет ======= */
+  --primary-white-color: #ffffff;
+
+  --main-font: "Roboto", sans-serif;
+
+  --secondary-font: "Raleway", "Oleo Script", sans-serif;
+}
+/* ============ body ========== */
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+}
+/* *,
+      ::after,
+      ::before {margin: 0; padding: 0;}
+       */
+/* ul {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+} */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ================ Heder ==================== */
+.page-header .container {
+  display: flex;
+  align-items: center;
+
+  /* .page-header {
+     padding-top: 32px;
+     padding-bottom: 32px;
+     background-color: #ccc;
+  }  */
+
+  /* width: 1222px; 
+    min-height: 105px;
+    margin: 0 auto; */
+}
+.page-header .logo {
+  margin-right: 93px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  width: 145px;
+  padding-top: 24px;
+  border: 0px;
+  padding-bottom: 25px;
+}
+/* display: flex; */
+.nav-list {
+  display: flex;
+  border: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.page-header .address {
+  /* display: flex;*/
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+
+  border: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.address-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+/* =========logo========== */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-web {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+/* =========logo end ========== */
+
+/* ============ site-nav ============ */
+.nav-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.link-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.link-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+/* ============ site-nav end ============ */
+
+/* ================ Heder end ==================== */
+
+/* =========== hero ============== */
+/* перенесены в файл "main" этой же папки  */
+/* =========== hero end ============== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: imset(100%);
+  clip: rect(0 0 0 0);
+}
+/*== приемущества и особенности skill =====*/
+/* перенесены в файл "main" этой же папки  */
+/* ============ end sill =========== */
+
+/* =====--Примеры работ--====== */
+/* перенесены в файл "main" этой же папки  */
+/* =====--Примеры работ end--====== */
+
+/* ========== команда team ========== */
+/* перенесены в файл "main" этой же папки  */
+/* =====-- команда team end--====== */
+
+/* =========-- Футер --=========== */
+.footer {
+  background-color: #2f303a;
+  min-height: 252px;
+}
+
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+
+  display: block;
+  width: 145px;
+  padding-top: 60px;
+  border: 0px;
+  padding-bottom: 20px;
+}
+
+.foot-nav {
+  min-height: 81px;
+}
+.link-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--primary-white-color);
+  width: 231px;
+  height: 21px;
+}
+.foot-link-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.foot-link-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+}
+
+/* =========-- Футер end --=========== */
+
+/* ==============WORK=========== */
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.work-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.navigation-list-link.current {
+  color: var(--accent-color);
+}
+
+/* =======portfolio filtr=========== */
+/* .portfolio-list {
+  display: flex;
+} */
+
+/* projects */
+.portfolio {
+  margin: 94px 0;
+  border: 0;
+}
+
+.fil {
+  width: 611px;
+  height: 54px;
+  border: 0;
+  margin-bottom: 0 auto 34px;
+}
+.fil-list {
+  display: flex;
+  border: 0;
+  justify-content: space-between;
+}
+
+.fil-btn {
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  height: 38;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.fil-list > .fil-btn:hover,
+.fil-list > .fil-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.proj-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.proj-list > .proj-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 -30px);
+}
+.proj-text {
+  border: 0;
+  padding: 20px 24px;
+}
+.work-text {
+  border: 0;
+  margin-top: 4px;
+}

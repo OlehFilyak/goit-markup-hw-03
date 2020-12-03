@@ -1,0 +1,168 @@
+/* цвет логотипа #2196F3 и #000000 */
+/* белый #ffffff */
+/* фон #e5e5e5  и f5f4fa */
+
+/* =========== hero ============== */
+.hero {
+  min-height: 600px;
+  background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 452px 280px;
+}
+
+/* .hero-bunner {
+  
+} */
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  margin: auto;
+}
+
+.hero-btn {
+  min-width: 200px;
+  height: 50px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 32px;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* .hero-btn:hover,
+       .hero-btn:focus {
+}     */
+/* =========== hero end ============== */
+/* =========== section =========== */
+/*--приемущества и особенности-->*/ /* ========= skill ========= */
+.skill-list {
+  color: var(--primary-text-color);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  margin-left: -30px;
+  padding: 0;
+
+  /* outline: 1px solid; */
+}
+.skill-item {
+  min-height: 101px;
+  width: 270px;
+
+  margin-left: 30px;
+  flex-basis: calc(100% / 4 -30px);
+  /* outline: 1px solid; */
+  /*  
+      height: 101px;
+     .skill-item:not(:last-child) {
+     margin-top: 30px;
+        */
+}
+/* 
+*/
+
+.skill-item .section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.text {
+  margin-top: 10px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* ========= skill end ========= */
+
+/* ============ <!--Примеры работ--> ============ */
+
+.work-list {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.work-list .work-img:not(:last-child) {
+  margin-right: 30px;
+  padding: 0;
+  border: 0;
+}
+.section-title-about,
+.section-title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* ============ <!--Примеры работ end--> ============ */
+
+/* ========== команда team ========== */
+.section-title-team {
+  margin-top: 188px;
+  margin-bottom: 50px;
+}
+.work-list-team {
+  margin-bottom: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+.team-name {
+  margin-bottom: 10px;
+}
+.work-list-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* .work-list-team .work-team:not(:last-child) {
+  margin-right: 30px;
+  padding: 0;
+  border: 0;
+} */
+.work-list-team .team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-align: center;
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+/* ========== examples ======== */
