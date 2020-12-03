@@ -12,7 +12,7 @@
 
   --secondary-font: "Raleway", "Oleo Script", sans-serif;
 }
-/* ============ body ========== */
+/* ============ BODY ========== */
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -25,11 +25,11 @@ body {
 /* ul {
   list-style: none;
   text-decoration: none;
-}
+}*/
 a {
   text-decoration: none;
   list-style: none;
-} */
+}
 .list {
   list-style: none;
 }
@@ -65,7 +65,7 @@ img {
   margin: 0 auto;
 }
 
-/* ================ Heder ==================== */
+/* ================ HEADER ==================== */
 .page-header .container {
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@ img {
 .address-list-item:not(:last-child) {
   margin-right: 50px;
 }
-/* =========logo========== */
+/* ========= LOGO ========== */
 
 .logo {
   font-family: var(--secondary-font);
@@ -140,9 +140,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-/* =========logo end ========== */
+/* ========= END LOGO ========== */
 
-/* ============ site-nav ============ */
+/* ============ SITE-NAV ============ */
 .nav-list .link {
   font-weight: 500;
   font-size: 14px;
@@ -178,12 +178,12 @@ img {
 .nav-list .link.current {
   color: var(--accent-color);
 }
-/* ============ site-nav end ============ */
+/* ============ END SITE-NAV ============ */
 
-/* ================ Heder end ==================== */
+/* ================ END HEADER ==================== */
 
-/* =========== hero ============== */
-/* перенесены в файл "main" этой же папки  */
+/* =========== HERO ============== */
+/* перенесены в файл "styles" этой же папки  */
 /* =========== hero end ============== */
 .visually-hidden {
   position: absolute;
@@ -198,18 +198,18 @@ img {
   clip: rect(0 0 0 0);
 }
 /*== приемущества и особенности skill =====*/
-/* перенесены в файл "main" этой же папки  */
+/* перенесены в файл "styles" этой же папки  */
 /* ============ end sill =========== */
 
 /* =====--Примеры работ--====== */
-/* перенесены в файл "main" этой же папки  */
+/* перенесены в файл "styles" этой же папки  */
 /* =====--Примеры работ end--====== */
 
 /* ========== команда team ========== */
-/* перенесены в файл "main" этой же папки  */
+/* перенесены в файл "styles" этой же папки  */
 /* =====-- команда team end--====== */
 
-/* =========-- Футер --=========== */
+/* ========= FOOTER =========== */
 .footer {
   background-color: #2f303a;
   min-height: 252px;
