@@ -80,6 +80,9 @@ img {
     min-height: 105px;
     margin: 0 auto; */
 }
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .page-header .logo {
   margin-right: 93px;
 }
@@ -255,9 +258,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
   width: 231px;
   height: 21px;
-
-  padding-top: 9px;
-  padding-bottom: 9px;
 }
 .foot-link-tel {
   font-style: normal;
@@ -270,7 +270,12 @@ img {
   width: 231px;
   height: 21px;
 }
-
+.address-list-item {
+  margin-bottom: 9px;
+}
+.address-list-item:last-child {
+  margin-bottom: 0;
+}
 /* =========-- Футер end --=========== */
 
 /* ==============WORK=========== */
@@ -306,7 +311,6 @@ img {
 }
 
 .fil {
-  width: 611px;
   height: 54px;
   border: 0;
   margin-bottom: 0 auto 34px;
@@ -314,14 +318,21 @@ img {
 .fil-list {
   display: flex;
   border: 0;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.fil-list-item {
+  margin-right: 6px;
+}
+.fil-list-item:last-child {
+  margin-right: 0px;
 }
 
 .fil-btn {
   border-radius: 4px;
   cursor: pointer;
   border: 0;
-  height: 38;
+  padding: 6px 22px;
 
   font-weight: 500;
   font-size: 16px;
@@ -329,11 +340,10 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 
-  display: flex;
-  justify-content: space-between;
   color: var(--title-text-color);
   background-color: #f5f4fa;
 }
+
 .fil-list > .fil-btn:hover,
 .fil-list > .fil-btn:focus {
   color: var(--primary-white-color);
@@ -352,8 +362,10 @@ img {
   flex-basis: calc(100% / 3 -30px);
 }
 .proj-text {
-  border: 0;
   padding: 20px 24px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .work-text {
   border: 0;
