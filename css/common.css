@@ -216,6 +216,7 @@ img {
 .footer {
   background-color: #2f303a;
   min-height: 252px;
+  padding-top: 60px;
 }
 
 .footer-logo {
@@ -229,9 +230,8 @@ img {
 
   display: block;
   width: 145px;
-  padding-top: 60px;
   border: 0px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .foot-nav {
@@ -306,15 +306,17 @@ img {
 
 /* projects */
 .portfolio {
-  margin: 94px 0;
+  padding: 94px;
   border: 0;
 }
 
 .fil {
   height: 54px;
   border: 0;
-  margin-bottom: 0 auto 34px;
+  /*margin-bottom: 0 auto 34px;*/
+  margin-bottom: 50px;
 }
+
 .fil-list {
   display: flex;
   border: 0;
@@ -370,4 +372,9 @@ img {
 .work-text {
   border: 0;
   margin-top: 4px;
+}
+
+.skill {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }

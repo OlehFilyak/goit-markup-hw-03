@@ -9,7 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 200px 452px 280px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* .hero-bunner {
@@ -61,8 +62,6 @@
   color: var(--primary-text-color);
   display: flex;
   flex-wrap: wrap;
-  margin-top: 94px;
-  margin-bottom: 94px;
   margin-left: -30px;
   padding: 0;
 
@@ -108,8 +107,6 @@
 
 .work-list {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 94px;
 }
 .work-list .work-img:not(:last-child) {
   margin-right: 30px;
@@ -127,7 +124,7 @@
 }
 /* ============ <!--Примеры работ end--> ============ */
 
-/* ========== команда team ========== */
+/* ========== TEAM ========== */
 .team {
   background: #f5f4fa;
   padding-bottom: 94px;
@@ -136,6 +133,12 @@
 .section-title-team {
   margin-bottom: 50px;
 }
+
+.work {
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
 .work-list-team {
   display: flex;
   justify-content: space-between;
