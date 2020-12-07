@@ -215,8 +215,8 @@ img {
 /* ========= FOOTER =========== */
 .footer {
   background-color: #2f303a;
-  min-height: 252px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {

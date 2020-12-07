@@ -121,6 +121,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 /* ============ <!--Примеры работ end--> ============ */
 
@@ -129,9 +130,6 @@
   background: #f5f4fa;
   padding-bottom: 94px;
   padding-top: 94px;
-}
-.section-title-team {
-  margin-bottom: 50px;
 }
 
 .work {
